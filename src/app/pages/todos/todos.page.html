@@ -1,0 +1,21 @@
+<div class="input-task">
+  <h2>Inserisci il tuo Task</h2>
+  <input type="text" [(ngModel)]="nomeTask" id="input" /><button
+    (click)="addTask(nomeTask)"
+  >
+    +
+  </button>
+</div>
+<div class="container-caricamento" *ngIf="caricamento">
+  <span class="loader"></span>
+</div>
+<div class="container-main" *ngFor="let item of listaTask">
+  <ng-container *ngIf="!item.completed">
+    <div class="container-task">
+      <div class="titolo">{{ item.title }}</div>
+      <button class="completed" (click)="completedTask(this.item.id)">
+        Task Completato
+      </button>
+    </div>
+  </ng-container>
+</div>

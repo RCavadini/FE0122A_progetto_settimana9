@@ -1,0 +1,6 @@
+<div class="titolo" *ngIf="listaTask.length < 1">Ops non ci sono Task</div>
+<div *ngFor="let item of listaTask">
+  <ng-container *ngIf="item.completed">
+    <div class="titolo">{{ item.title }}</div>
+  </ng-container>
+</div>

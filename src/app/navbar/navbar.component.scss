@@ -1,0 +1,16 @@
+nav {
+  display: flex;
+  li {
+    list-style-type: none;
+    margin: 10px;
+    a {
+      text-decoration: none;
+      color: black;
+      font-weight: bolder;
+      font-size: larger;
+    }
+  }
+}
+.header {
+  background-color: lightgray;
+}

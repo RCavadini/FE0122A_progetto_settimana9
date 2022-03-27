@@ -1,3 +1,4 @@
+import { Todo } from './models/todo';
 import { Component } from '@angular/core';
 
 @Component({
@@ -6,5 +7,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'progettosettimana9';
+  title = 'FE0122A_progetto_settimana_9';
 }

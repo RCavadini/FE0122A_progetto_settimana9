@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "progettosettimana9": {
+    "FE0122A_progetto_settimana_9": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -20,7 +20,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/progettosettimana9",
+            "outputPath": "dist/fe0122-a-progetto-settimana-9",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -72,10 +72,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "progettosettimana9:build:production"
+              "browserTarget": "FE0122A_progetto_settimana_9:build:production"
             },
             "development": {
-              "browserTarget": "progettosettimana9:build:development"
+              "browserTarget": "FE0122A_progetto_settimana_9:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -83,7 +83,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "progettosettimana9:build"
+            "browserTarget": "FE0122A_progetto_settimana_9:build"
           }
         },
         "test": {
@@ -107,5 +107,5 @@
       }
     }
   },
-  "defaultProject": "progettosettimana9"
+  "defaultProject": "FE0122A_progetto_settimana_9"
 }
